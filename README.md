@@ -2,8 +2,8 @@
 
 A thread-safe, generic FIFO queue implementation for Go with configurable capacity limits.
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/yourusername/go-queue.svg)](https://pkg.go.dev/github.com/yourusername/go-queue)
-[![Go Report Card](https://goreportcard.com/badge/github.com/yourusername/go-queue)](https://goreportcard.com/report/github.com/yourusername/go-queue)
+[![Go Reference](https://pkg.go.dev/badge/github.com/mghyo/go-queue.svg)](https://pkg.go.dev/github.com/mghyo/go-queue)
+[![Go Report Card](https://goreportcard.com/badge/github.com/mghyo/go-queue)](https://goreportcard.com/report/github.com/mghyo/go-queue)
 
 ## Features
 
@@ -16,7 +16,7 @@ A thread-safe, generic FIFO queue implementation for Go with configurable capaci
 ## Installation
 
 ```bash
-go get github.com/yourusername/go-queue
+go get github.com/mghyo/go-queue
 ```
 
 ## Quick Start
@@ -26,7 +26,7 @@ package main
 
 import (
     "fmt"
-    "github.com/yourusername/go-queue"
+    "github.com/mghyo/go-queue"
 )
 
 func main() {
